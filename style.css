@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+
+body {
+    background-color: lightslategrey;
+    opacity: 60%;
+}
+
+
+nav css {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+menu {
+    color: #333333;
+    gap : 15px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+banner {
+    
+    background-image: url('./assets/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+banner h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+banner p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+    color: white;
+}
+
+
+
